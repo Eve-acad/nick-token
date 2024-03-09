@@ -78,7 +78,7 @@ Time: {{ currentTime }}
             <div>> <a class="hover-underline">PARENT GUIDE</a></div>
             <div>> <a class="hover-underline">TV PARENTAL GUIDELINES</a></div>
           </div>
-          <div> @2023 $CN Token. We Are Not Affiliated With The Official Cartoon Network</div>
+          <div> @2024 $NICK Token. We Are Not Affiliated With The Official Nickelodeon. Everything here is NFA</div>
         </div>
       </div>
     </div>
