@@ -1,27 +1,34 @@
 <template>
-  <img class="w-100 h-20 ml-2 mt-2" src="@/assets/logo.png">
+  <div class="flex justify-center w-full pt-5">
+    <img class="h-20" src="@/assets/logo.png" />
+  </div>
   <div class="flex flex-col px-2 container mx-auto py-3">
-    <div class="flex flex-wrap">
-      <div class="grid grid-cols-2 lg:w-1/4 w-96 bg-orange-600">
-        <div class="py-1 pl-2"><a class="hover-underline" href="https://shorturl.at/fnqLU"><strong>TONIGHT'S
-              SPECIAL</strong></a></div>
-        <div class="bg-yellow-600 py-1 pl-2"><strong>Current time: {{ currentTime }}</strong></div>
+  <div class="flex flex-wrap justify-center mx-auto w-full">
+    <div class="grid grid-cols-2 lg:w-1/4 w-96 bg-orange-600">
+      <div class="py-1 pl-2">
+        <a class="hover-underline font" href="https://shorturl.at/fnqLU">TONIGHT'S SPECIAL</a>
       </div>
+      <div class="bg-yellow-600 py-1 pl-7 font">
+Time: {{ currentTime }}
+      </div>
+    </div>
 
-      <div class="bg-yellow-500 px-3 py-1"><a href="https://raydium.io/swap/?outputCurrency=Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>$CN on SOL</strong></a></div>
-      <div class="flex flex- gap-4 bg-gray-400 pl-8 pr-8 py-1">
+    <div class="bg-yellow-500 px-3 py-1 font">
+      <a href="https://raydium.io/swap/?outputCurrency=[CA]" class="hover-underline ">Buy $NICKELODEON</a>
+    </div>
+    <div class="flex flex- gap-4 bg-gray-400 pl-8 pr-8 py-1 font">
         <div><a href="https://solscan.io/token/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>SOLSCAN</strong></a></div>
         <div><a href="https://birdeye.so/token/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9?chain=solana" class="hover-underline"><strong>BIRDEYE</strong></a></div>
-        <div><a href="https://rugcheck.xyz/tokens/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>RUGCHECKER</strong></a></div>
+        <div><a href="https://rugcheck.xyz/tokens/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>RUGCHECK</strong></a></div>
         <div><a href="https://twitter.com/cn_solana" class="hover-underline"><strong>TWITTER</strong></a></div>
         <div><a href="https://t.me/CN_Sol" class="hover-underline"><strong>TELEGRAM</strong></a></div>
       </div>
-      <div class="flex bg-gray-300 px-3 py-1">
-        <div class="pr-3">SEARCH</div>
-        <input type="text" class="border outline-none" placeholder="  Vibes and Cartoon" />
-        <div class="pl-3"><button>GO</button></div>
-      </div>
+    <div class="flex bg-gray-300 px-3 py-1 font">
+      <div class="pr-3">SEARCH</div>
+      <input type="text" class="border outline-none" placeholder="Vibes and Cartoon" />
+      <div class="pl-3"><button>GO</button></div>
     </div>
+  </div>
 
     <div class="flex flex-col md:grid grid-cols-9 gap-4 mt-5">
 
@@ -61,7 +68,7 @@
         <div class="w-full grid grid-cols-5 gap-3">
           <div class="border"><img src="@/assets/ad2.gif" class="w-full h-28" /></div>
           <div class="border col-span-3"><img src="@/assets/ad5.gif" class="w-full h-28" /></div>
-          <div class="border"><img src="@/assets/cn-black.png" class="w-full h-28" /></div>
+          <div class=""><img src="@/assets/logo.png" class="w-full h-28" /></div>
         </div>
         <div class="flex flex-col text-sm">
           <div> > <a class="hover-underline">PRIVACY POLICY</a></div>
@@ -81,6 +88,14 @@
 <style>
 .hover-underline:hover {
   text-decoration: underline;
+}
+
+body{
+  background-color: #EDB829
+}
+
+.font{
+  font-family: 'Rubik Bubbles';
 }
 </style>
 
