@@ -14,14 +14,14 @@ Time: {{ currentTime }}
     </div>
 
     <div class="bg-yellow-500 px-3 py-1 font">
-      <a href="https://raydium.io/swap/?outputCurrency=[CA]" class="hover-underline ">Buy $NICKELODEON</a>
+      <a href="https://raydium.io/swap/?outputCurrency=6XKKsryzoUjewxyQ3P4ZCZuVT1YnsY2bvQpJt7tNR49n" class="hover-underline ">Buy $NICKELODEON</a>
     </div>
     <div class="flex flex- gap-4 bg-gray-400 pl-8 pr-8 py-1 font">
-        <div><a href="https://solscan.io/token/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>SOLSCAN</strong></a></div>
-        <div><a href="https://birdeye.so/token/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9?chain=solana" class="hover-underline"><strong>BIRDEYE</strong></a></div>
-        <div><a href="https://rugcheck.xyz/tokens/Ah6KcTtLqrwxQwDQVAUYxKzb4yQJroDo1RrYwqYF4Lb9" class="hover-underline"><strong>RUGCHECK</strong></a></div>
-        <div><a href="https://twitter.com/cn_solana" class="hover-underline"><strong>TWITTER</strong></a></div>
-        <div><a href="https://t.me/CN_Sol" class="hover-underline"><strong>TELEGRAM</strong></a></div>
+        <div><a href="https://solscan.io/token/6XKKsryzoUjewxyQ3P4ZCZuVT1YnsY2bvQpJt7tNR49n" class="hover-underline"><strong>SOLSCAN</strong></a></div>
+        <div><a href="https://birdeye.so/token/6XKKsryzoUjewxyQ3P4ZCZuVT1YnsY2bvQpJt7tNR49n?chain=solana" class="hover-underline"><strong>BIRDEYE</strong></a></div>
+        <div><a href="https://rugcheck.xyz/tokens/6XKKsryzoUjewxyQ3P4ZCZuVT1YnsY2bvQpJt7tNR49n" class="hover-underline"><strong>RUGCHECK</strong></a></div>
+        <div><a href="https://twitter.com/nickelodeon_SOL" class="hover-underline"><strong>TWITTER</strong></a></div>
+        <div><a href="https://t.me/nickelodeon_SOL" class="hover-underline"><strong>TELEGRAM</strong></a></div>
       </div>
     <div class="flex bg-gray-300 px-3 py-1 font">
       <div class="pr-3">SEARCH</div>
